@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+}
+
+li {
+  list-style-type: none;
+}
+li a:hover {
+  color: grey;
+}
+
+.actividades {
+  text-align: center;
+  color: grey;
+  font-size: medium;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 2;
+}
+
+.youtube {
+  text-align: center;
+  padding-bottom: 75px;
+}
+
+h1, h2, h3 {
+  color: #000000;
+  text-align: center;
+  font-size: 20px;
+  margin: 10px;
+}
+
+h5 {
+  color: #ffffff;
+}
+
+h4 {
+  color: grey;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.ubicacion {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: grid;
+  justify-content: center;
+  background-color: beige;
+}
+
+.mapa {
+  padding-top: 50px;
+}
+
+.fondoform {
+  background-image: url(../img/AULA6.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  height: 700px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  padding-top: 50px;
+}
+
+form {
+  height: 600px;
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding-top: 40px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.contacto {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+}
+
+input, textarea {
+  width: 100%;
+  font-size: 20px;
+  border: none;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+#boton {
+  background: #31384a;
+  padding: 20px;
+  color: #fff;
+}
+
+#boton:hover {
+  color: grey;
+}
+
+.slide{
+  margin-bottom: 10px;
+}
+.slide img{
+  height: 550px;
+}
+@media only screen and (max-width: 480px) {
+  form {
+    width: 100%;
+  }
+
+  .h5 {
+    font-size: 15px;
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .mapa {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .youtube {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .parrafo {
+    width: auto;
+  }
+}
+  @media only screen and (max-width: 768px) {
+    .slide img{
+      width: 100px;
+      height: 200px;
+    }
+    }
