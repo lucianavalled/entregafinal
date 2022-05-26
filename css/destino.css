@@ -120,6 +120,8 @@ textarea {
 .slide img{
   height: 550px;
 }
+
+
 @media only screen and (max-width: 480px) {
   form {
     width: 100%;
